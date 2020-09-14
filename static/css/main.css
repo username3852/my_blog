@@ -1,5 +1,5 @@
 body {
-  background: #fafafa;
+  background: #6d509c;
   color: #333333;
   margin-top: 5rem;
 
@@ -31,7 +31,7 @@ ul {
 }
 
 .content-section {
-  background: #ffffff;
+  background:  #ffffff;
   padding: 10px 20px;
   border: 1px solid #dddddd;
   border-radius: 3px;
@@ -77,6 +77,10 @@ a.article-title:hover {
 main h3 {
   text-align: center;
   color:#5f788a;
+}
+
+header h3 {
+  color: #cbd5db;
 }
 
 .account-img {

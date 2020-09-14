@@ -39,9 +39,11 @@
         <div class="navbar-nav">
           {% if user.is_authenticated%}
           <!--means that user is logged in-->
+          <a class="nav-item nav-link">Hi {{ user.username }}!</a>
+          <a class="nav-item nav-link" href="{% url 'profile' %}">Profile</a>
           <a class="nav-item nav-link" href="{% url 'logout' %}">Logout</a>
           {% else %}
-          <a class="nav-item nav-link" href="{% url 'login' %}">LogIn</a>
+          <a class=" nav-item nav-link" href="{% url 'login' %}">LogIn</a>
           <a class="nav-item nav-link" href="{% url 'register' %}">Register</a>
           {% endif %}
         </div>
@@ -49,7 +51,7 @@
     </nav>
     <div>
   </header>
-  <main role="main" class="container">
+  <main role="main" class="container change-bg">
     <div class="row">
       <div class="col-md-8">
         {% if messages %}
