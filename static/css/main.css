@@ -1,8 +1,8 @@
 body {
-  background: #6d509c;
+  background-color: #dbd9d9;
   color: #333333;
   margin-top: 5rem;
-
+  font-family: 'Roboto', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
