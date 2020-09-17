@@ -1,1 +1,1 @@
-# my_blog
+# my_blog full featured app
